@@ -21,8 +21,8 @@ return [
 # Уже имеются два пользователя
 
 1. Первый
-  1. login: user
-  1. password: 123
+   1. login: user
+   1. password: 123
 2. Второй
   2. login: user1
   2. password: 123
