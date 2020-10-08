@@ -1,11 +1,11 @@
 #Простой фреймворк на php с применением паттерна MVC и ООП
-**Запускалось все на OpenServer**
+Запускалось все на OpenServer
 [Настройки OpenServer](https://prnt.sc/uva9t3)
 ---
 # **Создание и подключение БД**
 В корневом каталоге лежит файл fakehh_db.sql, нужно выполнить экспорт в phpMyAdmin, до этого создав БД с именем fakehh
 
-При успешном создании БД переходим в каталог проекта "fake-hh>application>config>db.php"
+При успешном создании БД переходим в каталог проекта "fake-hh>application>config>db.php" и меняем на свое
 
 ```
 <?php
@@ -17,8 +17,6 @@ return [
 	'password' => 'root',
 ];
 ```
-[Как выглядит](https://prnt.sc/uvadhm)
-
 ---
 # Уже имеются два пользователя
 
@@ -35,7 +33,6 @@ return [
 логин и пароль можно заменить в файле по пути "fake-hh>application>config>admin.php"
 ```
 <?php
-//Надо бы убрать потом этот позор...
 return [
 	'login' => 'admin',
 	'password' => '12345',
