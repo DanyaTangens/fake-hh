@@ -21,12 +21,14 @@ return [
 # Уже имеются два пользователя
 
 1. Первый
-   1. login: user
-   1. password: 123
+   * login: user
+   * password: 123
 2. Второй
   2. login: user1
   2. password: 123
-	
+1. ol
+ * ul
+ * ul
 # Панель администратора
 ## В нее можно попасть прописав в адресной строке fake-hh/admin/login
 
